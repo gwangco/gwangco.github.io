@@ -4,12 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>월 지출 계산기 - 쉽고 편리한 계산기</title>
-    <meta name="google-site-verification" content="1bueGTr2EdLC0WvDNWrIcFUilY1tiAq8jX7g-EDFrsk" />
-    <meta name="naver-site-verification" content="f379e2beabaa80147f13df27fc3cf20a393318bb" />
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7669124589808715"
-     crossorigin="anonymous"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8982206893560481"
-     crossorigin="anonymous"></script>
+    <meta
+      name="google-site-verification"
+      content="1bueGTr2EdLC0WvDNWrIcFUilY1tiAq8jX7g-EDFrsk"
+    />
+    <meta
+      name="naver-site-verification"
+      content="f379e2beabaa80147f13df27fc3cf20a393318bb"
+    />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7669124589808715"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8982206893560481"
+      crossorigin="anonymous"
+    ></script>
     <meta
       name="description"
       content="월별 지출 내역을 간편하게 기록하고 관리할 수 있는 무료 월 지출 계산기입니다. 편리한 계산기능을 제공합니다."
@@ -276,6 +288,34 @@
           padding: 5px;
         }
       }
+
+      /* 푸터 스타일 */
+      footer {
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #e9ecef;
+        color: #6c757d;
+        text-align: center;
+        width: 100%;
+        max-width: 800px; /* 본문 내용과 비슷한 너비로 제한 */
+        border-top: 1px solid #dee2e6;
+        font-size: 0.9rem;
+        border-radius: 8px;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
+      }
+
+      footer p {
+        margin: 5px 0;
+      }
+
+      footer a {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
     </style>
   </head>
   <body>
@@ -329,6 +369,11 @@
       <label for="finalRemainingAmount">최종 남은 금액:</label>
       <input type="text" id="finalRemainingAmount" readonly />
     </div>
+
+    <footer>
+      <p>&copy; 2025 월 지출 계산기. All rights reserved.</p>
+      <p>광고문의 : kgjcy123@naver.com</p>
+    </footer>
 
     <script>
       const expenseAmountInput = document.getElementById("expenseAmount");
@@ -502,3 +547,4 @@
     </script>
   </body>
 </html>
+
