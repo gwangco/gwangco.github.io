@@ -384,6 +384,20 @@
       <label for="finalRemainingAmount">최종 남은 금액:</label>
       <input type="text" id="finalRemainingAmount" readonly />
     </div>
+    <div id="coupang-ad">
+      <!-- 방법 1: JavaScript 광고 코드 -->
+      <script src="https://ads-partners.coupang.com/g.js"></script>
+      <script>
+        new PartnersCoupang.G({
+          id: 877804,
+          template: "carousel",
+          trackingCode: "AF8948700",
+          width: "680",
+          height: "140",
+          tsource: "",
+        });
+      </script>
+    </div>
 
     <footer>
       <p>&copy; 2025 월 지출 계산기. All rights reserved.</p>
@@ -562,4 +576,3 @@
     </script>
   </body>
 </html>
-
